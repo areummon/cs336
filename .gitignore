@@ -161,3 +161,10 @@ cython_debug/
 
 .ruff_cache/
 *.zip
+# Datasets and encoded token files (too large for git)
+data/
+*.bin
+
+# direnv (may contain secrets)
+.direnv/
+.envrc
