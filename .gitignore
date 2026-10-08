@@ -1,0 +1,17 @@
+# Python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Datasets, encoded tokens, checkpoints (too large for git)
+data/
+*.bin
+*.pt
+*.ckpt
+wandb/
+
+# direnv (may contain secrets)
+.direnv/
+.envrc
